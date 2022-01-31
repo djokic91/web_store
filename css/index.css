@@ -1,0 +1,37 @@
+body {
+    height: 100%;
+}
+
+.list-group-item{
+    word-break: break all;
+}
+.product-image{
+    height: 180px;
+    object-fit: cover;
+}
+.img_cart{
+    height: 41px;
+}
+
+.alert {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 9999999;
+}
+
+  
+@media only screen and (max-width: 1200px) {
+    iframe{
+        width: 600px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    iframe{
+        width: 500px;
+    }
+    h1{
+        font-size: 32px;
+    }
+}
