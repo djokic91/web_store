@@ -29,7 +29,7 @@
                 </div>
             </div>
 
-            <div class="col-md-9 d-flex justify-content-center">
+            <div class="col-md-9">
 
 
                 <?php if (Helper::ifMessage()) { ?>
